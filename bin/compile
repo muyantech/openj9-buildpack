@@ -29,7 +29,7 @@ create_adoptopenjdk_url() {
   local release="${3:-latest}"
   # echo "https://api.adoptopenjdk.net/v2/binary/nightly/openjdk${version}?openjdk_impl=${impl}&os=linux&arch=x64&heap_size=normal&release=${release}&type=jdk"
   # echo "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.14.1%2B1_openj9-0.30.1/ibm-semeru-open-jdk_x64_linux_11.0.14.1_1_openj9-0.30.1.tar.gz"
-  echo "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.22%2B7_openj9-0.43.0/ibm-semeru-open-debugimage_x64_linux_11.0.22_7_openj9-0.43.0.tar.gz"
+  echo "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.22%2B7_openj9-0.43.0/ibm-semeru-open-jdk_x64_linux_11.0.22_7_openj9-0.43.0.tar.gz"
 }
 
 install_adoptopenjdk() {
